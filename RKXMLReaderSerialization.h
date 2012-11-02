@@ -35,7 +35,7 @@
  */
 
 #import "XMLReader.h"
-#import "RKSerialization.h"
+#import <RestKit/RKSerialization.h>
 
 @interface RKXMLReaderSerialization : NSObject <RKSerialization>
 @end
