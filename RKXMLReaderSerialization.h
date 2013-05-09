@@ -34,7 +34,7 @@
  the parsed dictionary at the `@"text"` key.
  */
 
-#import "XMLReader.h"
+#import "TBXML+NSDictionary.h"
 #import <RestKit/Support/RKSerialization.h>
 
 @interface RKXMLReaderSerialization : NSObject <RKSerialization>
