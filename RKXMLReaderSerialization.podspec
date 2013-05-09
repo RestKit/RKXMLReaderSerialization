@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
-  
+
   s.source       = { :git => "https://github.com/RestKit/RKXMLReaderSerialization.git" }
   s.source_files = '*.{h,m}'
-  
+
   s.dependency 'RestKit', '>= 0.20.0dev'
-  s.dependency 'XMLReader', '>= 0.0.2'
+  s.dependency 'TBXML-NSDictionary', '>= 0.0.1'
 end
