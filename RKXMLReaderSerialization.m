@@ -24,7 +24,7 @@
 
 + (id)objectFromData:(NSData *)data error:(NSError **)error
 {
-    return [TBXML dictionaryForXMLData:data error:error];
+    return [TBXML dictionaryWithXMLData:data error:error];
 }
 
 + (NSData *)dataFromObject:(id)object error:(NSError **)error
