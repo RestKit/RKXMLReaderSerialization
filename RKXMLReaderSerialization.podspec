@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = '*.{h,m}'
 
   s.dependency 'RestKit', '>= 0.20.0dev'
-  s.dependency 'TBXML-NSDictionary', '>= 0.0.1'
+  s.dependency 'TBXML+NSDictionary', '>= 0.0.1'
 end
