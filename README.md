@@ -1,18 +1,18 @@
-RKXMLReaderSerialization
+RKTBXMLSerialization
 ======================
 
-A RestKit XML serialization implementation using the XMLReader class.
+A RestKit XML serialization implementation using the TBXML class.
 
 ## Installation
 
-Install via Cocoapods or add the source files to your project. If you are installing directly from source, you will also need to obtain a copy of XMLReader from https://github.com/RestKit/XML-to-NSDictionary. 
+Install via Cocoapods or add the source files to your project. If you are installing directly from source, you will also need to obtain a copy of TBXML from https://github.com/mackoj/TBXML-NSDictionary. 
 
 Once installed, register the serialization in your app delegate (or wherever you handle RestKit setup):
 
 ``` objc
-#import "RKXMLReaderSerialization.h"
+#import "RKTBXMLSerialization.h"
 
-[RKMIMETypeSerialization registerClass:[RKXMLReaderSerialization class] forMIMEType:@"application/xml"];
+[RKMIMETypeSerialization registerClass:[RKTBXMLSerialization class] forMIMEType:@"application/xml"];
 
 ```
 
