@@ -1,5 +1,5 @@
 //
-//  RKXMLReaderSerialization.h
+//  RKTBXMLSerialization.h
 //  RestKit
 //
 //  Created by Christopher Swasey on 1/24/12.
@@ -20,10 +20,10 @@
 
 /**
  Provides a basic XML implementation using an adapted version
- of the XMLReader class by "Insert-Witty-Name" available at:
- https://github.com/RestKit/XML-to-NSDictionary
+ of the TBXML class by "Insert-Witty-Name" available at:
+ https://github.com/mackoj/TBXML-NSDictionary
 
- `RKXMLReaderSerialization` will parse an XML document into an NSDictionary
+ `RKTBXMLSerialization` will parse an XML document into an NSDictionary
  representation suitable for use with RestKit's key-value coding based
  object mapping implementation.
 
@@ -34,8 +34,8 @@
  the parsed dictionary at the `@"text"` key.
  */
 
-#import "XMLReader.h"
+#import "TBXML+NSDictionary.h"
 #import <RestKit/Support/RKSerialization.h>
 
-@interface RKXMLReaderSerialization : NSObject <RKSerialization>
+@interface RKTBXMLSerialization : NSObject <RKSerialization>
 @end

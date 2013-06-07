@@ -18,13 +18,13 @@
 //  limitations under the License.
 //
 
-#import "RKXMLReaderSerialization.h"
+#import "RKTBXMLSerialization.h"
 
-@implementation RKXMLReaderSerialization
+@implementation RKTBXMLSerialization
 
 + (id)objectFromData:(NSData *)data error:(NSError **)error
 {
-    return [XMLReader dictionaryForXMLData:data error:error];
+    return [TBXML dictionaryWithXMLData:data error:error];
 }
 
 + (NSData *)dataFromObject:(id)object error:(NSError **)error
