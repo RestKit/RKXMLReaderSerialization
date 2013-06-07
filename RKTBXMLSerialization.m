@@ -18,9 +18,9 @@
 //  limitations under the License.
 //
 
-#import "RKXMLReaderSerialization.h"
+#import "RKTBXMLSerialization.h"
 
-@implementation RKXMLReaderSerialization
+@implementation RKTBXMLSerialization
 
 + (id)objectFromData:(NSData *)data error:(NSError **)error
 {
