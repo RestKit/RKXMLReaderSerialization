@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "RKXMLReaderSerialization"
+  s.name         = "RKTBXMLSerialization"
   s.version      = "0.20.0"
   s.summary      = "A RestKit serialization format implementation for XML using XMLReader."
   s.homepage     = "https://github.com/segiddins/RKTBXMLSerialization"
